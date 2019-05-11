@@ -14,9 +14,18 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 	contoh penggunaam
 
+<<<<<<< HEAD
 	1. validasi username = 
 		* 'is_username_valid("dimasfeb")' return 'true' 
 		* 'is_username_valid("dimas")' return 'false'
 	2. validasi email =
 		* 'is_email_valid("email@mail.co")' return 'true'
 		* 'is_email_valid("ema@mail.co")' return 'false'
+=======
+	1. validasi username
+		* `is_username_valid("dimasfeb")` return `true` 
+		* `is_username_valid("dimas")` return `false`
+	2. validasi email
+		* `is_email_valid("email@mail.co")` return `true`
+		* `is_email_valid("ema@mail.co")` return `false`
+>>>>>>> eb5c3c3ca02b7c9956dfd5a117f7f06268f8fbec
