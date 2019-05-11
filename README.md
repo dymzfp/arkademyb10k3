@@ -32,6 +32,7 @@ jawaban soal tes online arkademy batch 10 kloter 3
 		`S29wTDWpCNegOPQaJmkMZ5ZM71riaXJQ`
 		
 		`LiWdzKp4iwuI8AE5hEzTdQAFGoYdmM4I`
+<<<<<<< HEAD
 
 4. Soal 4
 
@@ -43,3 +44,5 @@ jawaban soal tes online arkademy batch 10 kloter 3
 	contoh penggunaan
 
 	* `data = [ ['a', 's', 'd', 'f', 'g'], ['z', 'x', 'c'] ]` ketika `sort_array(data)` dijalankan akan menghasilkan `['s', 'z']`
+=======
+>>>>>>> cecbbd31002338729884158500a997494beeef30
