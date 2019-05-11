@@ -35,6 +35,8 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 
 4. Soal 4
+	
+	**file berbentuk PHP** harus dijalankan di server, Mencetak bendera Programmer’s Jolly Roger.
 
 
 5. Soal 5
