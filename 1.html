@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<p id="bio"></p>
+
+	<script type="text/javascript">
+		
+		function biodata(){
+			// var name = "Dimas Febri Prasetyo";
+			// var address = "RT 03/RW 01, Desa Jati, Kec. Karangan, Kab. Trenggalek, Jawa Timur";
+			// var hobbies = ["Ngoding", "Ngegame", "Tidur"];
+			// var is_married = false;
+			// var school = { highSchool:"SMKN 2 Trenggalek", university:"" };
+			// var skills = [ { name:"HTML", score:80 },
+			// 			   { name:"CSS", score:80 },
+			// 			   { name:"Javascript", score:70 },
+			// 			   { name:"PHP", score:80 },
+			// 			   { name:"Laravel", score:50 },
+			// 			   { name:"Bootstarp", score:60 } ];
+
+			var biodataObj = {
+				name : "Dimas Febri Prasetyo",
+				address : "RT 03/RW 01, Desa Jati, Kec. Karangan, Kab. Trenggalek, Jawa Timur",
+				hobbies : ["Ngoding", "Ngegame", "Tidur"],
+				is_married : false,
+				school : { highSchool:"SMKN 2 Trenggalek", university:"" },
+				skills : [ { name:"HTML", score:80 },
+						   { name:"CSS", score:80 },
+						   { name:"Javascript", score:70 },
+						   { name:"PHP", score:80 },
+						   { name:"Laravel", score:50 },
+						   { name:"Bootstarp", score:60 } ]
+			};
+
+			var biodataJson = JSON.stringify(biodataObj);
+
+			console.log(biodataJson);
+
+			var x = document.getElementById('bio');
+
+			x.innerHTML = biodataJson;
+		}
+
+		biodata();	
+
+	</script>
+</body>
+</html>
