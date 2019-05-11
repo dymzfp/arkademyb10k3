@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soal 5</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var x = [
+			["a","c","b","e","d"],
+			["g","e","f"]
+		];
+
+
+		function sort_array(data) {
+
+			var akhir = [];
+
+			for (var i = 0; i < data.length; i++) {
+				
+				// data[i].sort(function(a, b){return b - a});
+				
+				data[i].sort();
+
+				// console.log(data[i]);
+
+				akhir.push(data[i][data[i].length-1]);
+
+			}
+
+			console.log(akhir);
+
+		}
+
+	</script>
+</body>
+</html>
