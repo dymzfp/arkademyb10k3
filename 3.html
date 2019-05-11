@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soal 3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		function cetak(jml) {
+
+			var random_all = "";
+			var str = "";
+
+			for (var x = 0; x < jml; x++) {
+
+				str += random();
+
+				// cek apakah ada string yang sama
+				var c = random_all.split(" ");
+        		for (var y=0; y<c.length; y++) {
+        			if (c[y] == str) {
+        				str = "";
+        				str += random();
+        			}
+        		}
+
+				random_all += str;
+        		if (x != jml-1) {
+        			random_all += " ";
+        		}
+
+				str = '';
+			}
+
+			
+
+			var split = random_all.split(" ");
+			for (var a=0; a<split.length; a++) {
+    			console.log(split[a]);
+    		}
+
+
+		}
+
+		function random() {
+
+			var acak 	= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwqyz0123456789";
+			var panjang = 32;
+			var str = "";
+
+			for (var i = 0; i < panjang; i++) {
+				var hasil = Math.floor(Math.random() * acak.length);
+
+				// acak string
+        		str += acak.substring(hasil, hasil+1);
+
+			}
+
+			return str;
+
+		}
+
+	</script>
+</body>
+</html>
