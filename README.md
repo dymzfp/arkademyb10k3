@@ -50,10 +50,13 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 6. Soal 6
 
+	**file berbentuk PHP**
+	
 	configurasi dasar
 	
+	* databse = MySQL
 	* databse name = arkademy
-	
+	* import tabel from /soal_6/arkademy.sql
 	
 	<p align="center">
   		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/1.png" width="400" alt="accessibility text">
