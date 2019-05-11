@@ -3,7 +3,7 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 1. Soal 1
 
-	REST adalah standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis web. Biasanya menggunakan protocol HTTP untuk komunikasi data. REST mengembalikan nilai berbentuk JOSN lalu dari sisi klien mengambil nilai JSON tersebut. Jadi fungsi JSON pada REST adalah sebagai format data untuk REST
+	REST adalah standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis web. Biasanya menggunakan protocol HTTP untuk komunikasi data. fungsi JSON pada REST adalah sebagai format data untuk REST. REST mengembalikan nilai berbentuk JOSN lalu dari sisi klien mengambil nilai JSON tersebut.
 
 2. Soal 2
 
@@ -32,7 +32,7 @@ jawaban soal tes online arkademy batch 10 kloter 3
 		`S29wTDWpCNegOPQaJmkMZ5ZM71riaXJQ`
 		
 		`LiWdzKp4iwuI8AE5hEzTdQAFGoYdmM4I`
-<<<<<<< HEAD
+
 
 4. Soal 4
 
@@ -44,5 +44,29 @@ jawaban soal tes online arkademy batch 10 kloter 3
 	contoh penggunaan
 
 	* `data = [ ['a', 's', 'd', 'f', 'g'], ['z', 'x', 'c'] ]` ketika `sort_array(data)` dijalankan akan menghasilkan `['s', 'z']`
-=======
->>>>>>> cecbbd31002338729884158500a997494beeef30
+
+6. Soal 6
+
+	configurasi dasar
+	
+	* databse name = arkademy
+	
+	
+	<p align="center">
+  		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/1.png" width="400" alt="accessibility text">
+	</p>
+	<p align="center">
+  		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/2.png" width="400" alt="accessibility text">
+	</p>
+	<p align="center">
+  		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/3.png" width="400" alt="accessibility text">
+	</p>
+	<p align="center">
+  		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/4.png" width="400" alt="accessibility text">
+	</p>
+	<p align="center">
+  		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/5.png" width="400" alt="accessibility text">
+	</p>
+	<p align="center">
+  		<img src="https://github.com/dymzfp/arkademyb10k3/blob/master/assets/6.png" width="400" alt="accessibility text">
+	</p>
