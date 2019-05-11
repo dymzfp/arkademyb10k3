@@ -3,7 +3,8 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 1. Soal 1
 
-	REST adalah standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis web. Biasanya menggunakan protocol HTTP untuk komunikasi data. fungsi JSON pada REST adalah sebagai format data untuk REST. REST mengembalikan nilai berbentuk JOSN lalu dari sisi klien mengambil nilai JSON tersebut.
+	- REST adalah standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis web. Biasanya menggunakan protocol HTTP untuk komunikasi data. 
+	- fungsi JSON pada REST adalah sebagai format data untuk REST. REST mengembalikan nilai berbentuk JOSN lalu dari sisi klien mengambil nilai JSON tersebut.
 
 2. Soal 2
 
@@ -12,7 +13,7 @@ jawaban soal tes online arkademy batch 10 kloter 3
 	* validasi username = kombinasi huruf kecil dan titik, panjang harus tepat 8 karakter
 	* validasi email = kombinasi dari huruf kecil, huruf besar, angka, dan titik. Dengan panjang nama akun minimal 4 karakter. Dan diahiri titik dan domain.
 
-	contoh penggunaan
+	contoh penggunaan, *jalankan di consol browser*
 	
 	1. validasi username
 		* `is_username_valid("dimasfeb")` return `true` 
@@ -25,7 +26,7 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 	function untuk mecetak string sepanjang 32 karakter sebanyak parameter yang dimasukan. dan setiap string tidak ada data yang sama
 
-	contoh penggunaan
+	contoh penggunaan, *jalankan di consol browser*
 
 	* `cetak(2)` akan dicetak
 	
@@ -43,7 +44,7 @@ jawaban soal tes online arkademy batch 10 kloter 3
 
 	function memiliki parameter berupa array yang berisi array yang berisi alpabet. function ini bertugas untuk membentuk array baru berisikan nilai tertinggi dari tiap array yang dimasukkan
 
-	contoh penggunaan
+	contoh penggunaan, *jalankan di console browser*
 
 	* `data = [ ['a', 's', 'd', 'f', 'g'], ['z', 'x', 'c'] ]` ketika `sort_array(data)` dijalankan akan menghasilkan `['s', 'z']`
 
