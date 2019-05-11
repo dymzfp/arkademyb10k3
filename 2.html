@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		// validation username
+		function is_username_valid(data) {
+			// console.log(data);
+
+			var username = data;
+
+			var alphaExp = /^[a-z.]+$/;
+
+			if ( !username.match(alphaExp) || username.length != 8) {
+				return false;
+			}
+			else {
+				return true;
+			}
+
+		}
+
+		// validation email
+		function is_email_valid(data) {
+
+			var email = data;
+			
+			var atpos  = email.indexOf("@");
+ 			var dotpos = email.lastIndexOf(".");
+
+ 			var name_email = email.slice(0, atpos);
+
+ 			var email_cek = /^([a-zA-Z0-9_.+-])+$/;
+
+
+ 			if (atpos < 0 || name_email.length < 4 || !name_email.match(email_cek) || dotpos < atpos+2 || dotpos+2 >= email.length ) {
+ 				return false;
+ 			}
+ 			else {
+ 				return true;
+ 			}
+
+		}
+
+		
+
+	</script>
+
+</body>
+</html>
